@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @types/react-native-svg
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add expo-mail-composer@~8.1.0
 
 PATH: 
   C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ANNA\AppData\Local\Microsoft\WindowsApps;C:\Users\ANNA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ANNA\AppData\Local\GitHubDesktop\bin;C:\Users\ANNA\AppData\Local\Yarn\bin;C:\Users\ANNA\AppData\Roaming\npm;C:\Program Files\heroku\bin
@@ -14,17 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2freact-native-svg: Not found
-      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66084:18)
-      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140727:22)
-      at Request.emit (events.js:315:20)
-      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141699:10)
-      at Request.emit (events.js:315:20)
-      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141621:12)
-      at Object.onceWrapper (events.js:421:28)
-      at IncomingMessage.emit (events.js:327:22)
-      at endReadableNT (_stream_readable.js:1201:12)
-      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+  Error: EPERM: operation not permitted, unlink 'C:\Users\ANNA\Desktop\NLW\mobile\node_modules\@babel\helper-compilation-targets\node_modules\.bin'
 
 npm manifest: 
   {
@@ -45,9 +35,11 @@ npm manifest:
       "@react-navigation/stack": "^5.4.2",
       "@types/expo": "^33.0.1",
       "@types/react-native-maps": "^0.24.0",
+      "axios": "^0.19.2",
       "expo": "^37.0.12",
       "expo-constants": "~9.0.0",
       "expo-font": "~8.1.0",
+      "expo-location": "^8.1.0",
       "react": "~16.9.0",
       "react-dom": "~16.9.0",
       "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
@@ -56,6 +48,7 @@ npm manifest:
       "react-native-reanimated": "~1.7.0",
       "react-native-safe-area-context": "0.7.3",
       "react-native-screens": "~2.2.0",
+      "react-native-svg": "^12.1.0",
       "react-native-web": "~0.11.7"
     },
     "devDependencies": {
