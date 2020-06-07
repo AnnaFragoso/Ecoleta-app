@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @types/react-native-gesture-handler
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @types/react-navigation/stack
 
 PATH: 
   C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ANNA\AppData\Local\Microsoft\WindowsApps;C:\Users\ANNA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ANNA\AppData\Local\GitHubDesktop\bin;C:\Users\ANNA\AppData\Local\Yarn\bin;C:\Users\ANNA\AppData\Roaming\npm;C:\Program Files\heroku\bin
@@ -14,8 +14,8 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2freact-native-gesture-handler: Not found
-      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66084:18)
+  Error: https://registry.yarnpkg.com/@types%2freact-navigation/stack: Request "https://registry.yarnpkg.com/@types%2freact-navigation/stack" returned a 405
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66093:18)
       at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140727:22)
       at Request.emit (events.js:315:20)
       at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141699:10)
@@ -42,6 +42,7 @@ npm manifest:
       "@expo-google-fonts/ubuntu": "^0.1.0",
       "@react-native-community/masked-view": "0.1.6",
       "@react-navigation/native": "^5.5.1",
+      "@react-navigation/stack": "^5.4.2",
       "expo": "~37.0.3",
       "expo-font": "~8.1.0",
       "react": "~16.9.0",
@@ -1324,7 +1325,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.3.tgz#b755a0934564a200d3efdf88546ec93c369abd03"
     integrity sha512-7s9EQWupR1fTc2pSMtXRQ9w9gLOcrJn+h7HOXw4evxyvVqMi4f+q7d2tnFe3ng3SNHjtK+0EzGMGFUQX4/AQRA==
   
-  "@types/react-native@~0.61.17":
+  "@types/react-native@^0.61.23":
     version "0.61.23"
     resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.61.23.tgz#bff4e0311c229a5203eb37aacd4febf59f3e2980"
     integrity sha512-upHmySsrVBDBokWWhYIKkKnpvadsHdioSjbBTu4xl7fjN0yb94KR5ngUOBXsyqAYqQzF+hP6qpvobG9M7Jr6hw==
